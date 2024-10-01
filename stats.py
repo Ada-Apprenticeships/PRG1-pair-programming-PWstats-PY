@@ -1,6 +1,6 @@
 import os  # Needed to be able to delete files
 
-input_file = "./10000-most-common-passwords.csv"
+input_file = "./10000-common-passwords.csv"
 output_file = "./statistics.csv"
 delimiter = ","
 
