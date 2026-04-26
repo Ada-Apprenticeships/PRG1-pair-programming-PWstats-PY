@@ -8,7 +8,6 @@ DELIMITER = ","
 def delete_existing_output_file(filename):
     if os.path.exists(filename):
         os.remove(filename)
-        print(f"Deleted existing file: {filename}")
 
 
 def process_and_print_lines(input_filename, delimiter):
